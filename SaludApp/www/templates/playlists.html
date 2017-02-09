@@ -1,0 +1,12 @@
+<ion-view view-title="Cardápio Fitness">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="playlist in playlists">
+        <a class="item item-thumbnail-left"  href="#/app/playlists/{{playlist.id}}">
+          <img src="img/capa.jpg">
+            {{playlist.title}}
+        </a>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
